@@ -22,7 +22,7 @@ public class MessageListener {
     public void listener(MessageEntity message) {
 
         smsService.send(message.getTo(), message.getMessage());
-        logger.info("sms successfully sent - id: {}", message.getId());
+        logger.info("SMS successfully sent - id: {}", message.getId());
     }
 
 }
