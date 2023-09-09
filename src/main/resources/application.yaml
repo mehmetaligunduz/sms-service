@@ -4,9 +4,9 @@ server:
     context-path: /sms-service
 
 twilio:
-  accountSid: ACeae636ec6515ae3a8e83db3627ada798
-  authToken: 5d3ded14890b3ee4af09d25be03d9afe
-  phone: +14706844686
+  accountSid: ###############################
+  authToken: ###############################
+  phone: ##################################
 
 rabbitmq-otp:
   queue: otp_code_sms_queue
